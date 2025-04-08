@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+ol {
+    list-style-type: none;
+}
+
+.square{
+  width: 50px;
+    height: 50px;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Move-turn {
+  background-color: rgb(169, 201, 188);
+  padding: 10px 20px;
+  border: solid 1px #8d8d8d;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.Move-description {
+  background-color: rgb(203, 183, 223);
+  padding: 10px 20px;
+  border: solid 1px #8d8d8d;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+button {
+  background-color: rgb(45, 45, 46);
+  color: azure;
+  border-radius: 10px;
+  padding: 5px;
+}
+ol {
+  padding: 0;
+}
+
+.name01 {
+  /* background-color: red; */
+  border-bottom: 2px solid red;
+  margin: 5px 10px;
+}
+.name02 {
+  border-bottom: 2px solid blue;
+  margin: 5px 10px;
+}
+
+.EntName{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
