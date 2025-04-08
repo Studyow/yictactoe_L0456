@@ -58,11 +58,11 @@ function Board({ xIsNext, squares, onPlay }) {
         </div>
 
         <div className='EntName'>
-            <div>
+            <div className='nameTag'>
                 <label htmlFor="">X</label>
                 <input className='name01' type="text" placeholder='Player 1' onChange={(e) => setP1(e.target.value)} />
             </div>
-            <div>
+            <div className='nameTag'>
             <label htmlFor="">O</label>
                 <input className='name02' type="text" placeholder='Player 2' onChange={(e) => setP2(e.target.value)}/>
             </div>
